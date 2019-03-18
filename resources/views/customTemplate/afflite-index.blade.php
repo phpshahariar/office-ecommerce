@@ -32,8 +32,10 @@
 <body>
 <div class="container">
     <br/>
-    <div class="row">
-        <div class="col-sm-12">
+<div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12">
+        <div class="row">
+            <div class="col-sm-12">
             <div class="col-sm-4" style="border: 0px solid #000000;"></div>
             <div class="col-sm-4" style="border: 0px solid #000000;">
                 <form class="form-inline" action="{!! route('search') !!}" method="GET">
@@ -110,12 +112,14 @@
                                         </div>
                                     </div>
                                 </div>
-                        @endforeach
+                            @endforeach
+                        </div>
+                        {{ $products->links() }}
                     </div>
-                    {{ $products->links() }}
                 </div>
             </div>
         </div>
+     </div>
     </div>
 </div>
 

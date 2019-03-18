@@ -60,15 +60,7 @@
                     </div>
                     <div class="row-fluid">
                         <div class="span12">
-                            <div class="text-center">
-                                <b>Shopper Name : </b>
-                                <br/>
-                                <?php
 
-                                    foreach ($orderDetails as $admin_name){ ?>
-                                    [ {!! $admin_name->admin_name !!} ],
-                                <?php } ?>
-                            </div>
                             <hr>
 
                         </div>

@@ -119,7 +119,8 @@
                 <div class="media-right media-bottom"><i class="dic-more-vert dic"></i></div>
             </a>
             <ul class="dropdown-menu">
-                <li><a href="{{URL::to('/order-list')}}">FB Cover</a></li>
+                <li><a href="{{URL::to('/manage-frame')}}">manage Frame</a></li>
+                <li><a href="{{URL::to('/fb-cover')}}">FB Cover</a></li>
                 <li><a href="{{URL::to('/delevery-order')}}">FB Product</a></li>
             </ul>
         </li>

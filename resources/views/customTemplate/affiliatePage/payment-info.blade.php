@@ -53,13 +53,16 @@
             <br>
             <div class="form-group" style="margin-left: 20px;">
                 <div class="col-sm-2">
-                    <label ><input type="radio" name="payment_type" id="contact_form_name" value="card" class="form-control" placeholder="Enter your name" required="required" data-error="Name is required.">Card</label>
+                    <label ><input type="radio" name="payment_type" id="contact_form_name" value="card"  placeholder="Enter your name" required="required" data-error="Name is required."></label>
+                    <label>Card</label>
                 </div>
                 <div class="col-sm-2" style="margin-left: 110px;">
-                    <label ><input type="radio" name="payment_type" id="contact_form_name" value="cash" class="form-control" placeholder="Enter your name" required="required" data-error="Name is required.">Cash</label>
+                    <label ><input type="radio" name="payment_type" id="contact_form_name" value="cash"  placeholder="Enter your name" required="required" data-error="Name is required."></label>
+                    <label>Card</label>
                 </div>
-                <div class="col-sm-2" style="margin-left: 110px;">
-                    <label ><input type="radio" name="payment_type" id="contact_form_name" value="paypal" class="form-control" placeholder="Enter your name" required="required" data-error="Name is required.">Paypal</label>
+                <div class="col-sm-3" style="margin-left: 110px;">
+                    <label ><input type="radio" name="payment_type" id="contact_form_name" value="paypal"  placeholder="Enter your name" required="required" data-error="Name is required."></label>
+                    <label>Paypal</label>
                 </div>
             </div>
             <div class="form-group" style="margin-top: 60px;">

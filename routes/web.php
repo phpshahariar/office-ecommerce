@@ -417,6 +417,36 @@ Route::post('/update-order-details', [
 ]);
 
 
+// Statr Desing Banner
+
+Route::post('/add-frame', [
+    'uses' => 'DesingController@addFrame',
+    'as' => 'add-frame'
+]);
+
+Route::get('/manage-frame', [
+    'uses' => 'DesingController@manageFrame',
+    'as' => 'manage-frame'
+]);
+
+Route::get('/publish-farme/{id}', [
+    'uses' => 'DesingController@publishedFrame',
+    'as' => 'publish-farme'
+]);
+
+Route::get('/unpublish-farme/{id}', [
+    'uses' => 'DesingController@unpublishedFrame',
+    'as' => 'unpublish-farme'
+]);
+
+Route::get('/fb-cover', [
+    'uses' => 'DesingController@fbCover',
+    'as' => 'fb-cover'
+]);
+
+// End Desing Banner
+
+
 //OrderController End
 //AccountController Start
 Route::get('/view-shopper-history/{id}', [

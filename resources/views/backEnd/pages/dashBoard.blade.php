@@ -31,10 +31,6 @@
 
     <!-- Propeller admin theme css-->
     <link rel="stylesheet" type="text/css" href="{{asset('backEnd/themes/')}}/css/propeller-admin.css">
-
-
-
-
 </head>
 
 <body>
